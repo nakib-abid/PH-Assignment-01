@@ -9,3 +9,74 @@
 body {
     font-family: "Azeret Mono", monospace;
 }
+
+/* nav area */
+
+.nav-area {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px 50px 200px;
+}
+
+.nav-title {
+    color: rgb(13, 19, 33);
+    font-size: 28px;font-weight: 800;
+}
+
+.nav-btn {
+    width: 228px;
+    height: 58px;
+    border: 1px solid rgba(13, 19, 33, .1);
+    border-radius: 10px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -15px;
+}
+
+/* banner style */
+
+.banner {
+    width: 1920px;
+    height: 652px;
+    margin: 0 auto;
+    background-image: url("images/banner.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.banner-img {
+    width: 200px;
+    height: 200px;
+}
+
+.banner-title {
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+}
+
+.banner-description {
+    color: rgba(13, 19, 33, 0.8);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+}
+
+.banner-btn {
+    width: 208px;
+    height: 66px;
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
