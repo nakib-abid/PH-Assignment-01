@@ -37,7 +37,7 @@ body {
 /* banner style */
 
 .banner {
-    width: 1920px;
+    width: 1900px;
     height: 652px;
     margin: 0 auto;
     background-image: url("images/banner.png");
@@ -203,11 +203,19 @@ body {
     font-weight: 800;
 }
 
+.inspiration p {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(13, 19, 33, 0.7);
+}
+
 .inspiration-video {
     width: 1650px;
     height: 614px;
-    padding-left: 15px;
-    padding-top: 10px;
+    padding-left: 33px;
+    padding-top: 17px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 .inspiration-video iframe {
