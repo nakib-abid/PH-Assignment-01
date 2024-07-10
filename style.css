@@ -32,6 +32,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     margin-top: -15px;
+    cursor: pointer;
 }
 
 /* banner style */
@@ -80,6 +81,7 @@ body {
     text-align: center;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 /* web development section style */
@@ -157,6 +159,7 @@ body {
     font-weight: 600;
     margin-top: 30px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .web-dev-content3 {
@@ -379,4 +382,27 @@ body {
     padding-right: 25px;
     border: none;
     margin-left: 10px;
+    cursor: pointer;
+}
+
+/* footer area */
+
+.footer-area {
+    width: 1900px;
+    height: 150px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 130px;
+}
+
+.footer-area h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer-area-icon {
+    display: flex;
+    gap: 30px;
 }
