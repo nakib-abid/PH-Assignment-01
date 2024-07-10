@@ -84,6 +84,11 @@ body {
     cursor: pointer;
 }
 
+.banner-btn a {
+    color: white;
+    text-decoration: none;
+}
+
 /* web development section style */
 
 .web-dev {
